@@ -1,0 +1,11 @@
+advanced/build/
+advanced/*.c
+advanced/repro*.so
+
+simple/build/
+simple/*.c
+simple/repro*.so
+
+both/build/
+both/*.c
+both/repro*.so
