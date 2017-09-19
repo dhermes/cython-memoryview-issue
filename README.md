@@ -2,7 +2,8 @@
 
 This is a basic reproduction of an issue with concurrent usage of
 `is_c_contig()` and `is_f_contig()`. It has been [reported][2]
-previously, but the discussion ended.
+previously, but the discussion ended. (Has been [filed][3] in
+the Cython project.)
 
 The gist of the issue:
 
@@ -151,3 +152,4 @@ new_mat F-contiguous? True  | True
 
 [1]: http://cython.readthedocs.io/en/latest/src/userguide/memoryviews.html
 [2]: https://mail.python.org/pipermail/cython-devel/2013-February/003345.html
+[3]: https://github.com/cython/cython/issues/1872
